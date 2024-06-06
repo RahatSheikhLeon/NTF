@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NFT-Libary</title>
+    <!-- icon-link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- google-font-link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:wght@100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Syne:wght@400..800&display=swap"
+        rel="stylesheet">
+
+    <!-- slick-slider-css-link -->
+    <link rel="stylesheet" type="text/css" href="slick/slick-1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick-1.8.1/slick/slick-theme.css" />
+    <!-- CSS-LINK -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+</head>
+
+<body>
+    <!-- header -->
+    <header class="header-section">
+        <div class="container">
+            <div class="row content-space-between position-relative">
+
+                <div class=" site-logo">
+                    <a href="#"> <img src="./imgs/logo.png" alt="site-logo"></a>
+
+                </div>
+                <div class="header-content ">
+                    <nav class="floating-nav">
+                        <button class="mobile-nav-close" type="button"><i class="fa-solid fa-xmark"></i></button>
+                        <ul class="nav-list">
+                            <li><a href="index.html">Homes</a></li>
+                            <li><a href="explore.html">Explore</a></li>
+                            <li><a href="collectinos.html">Collections</a></li>
+                            <li><a href="creators.html">Creators</a></li>
+                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </nav>
+                    <div class="toggle-wrap">
+                        <button class="toggle-btn"><i class="fa-solid fa-bars"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- /header -->
+
+    <!-- content -->
+    <main>
+        <!-- all-page-title -->
+        <section class="section page-title-section">
+            <div class="container">
+                <h1 class="h1">
+                    <span class="position-relative h1-padding-horizontal blog-page-title">
+                        <span class="multicolor-text">Item Details</span>
+                        <span class="text-bg"></span>
+                    </span>
+                </h1>
+            </div>
+        </section>
+        <!-- //all-page-title -->
+        <section class="section item-details-section">
+            <div class="container">
+                <div class="row tablet-column">
+                    <div class="col col-6">
+                        <div class="item-img-wrapper">
+                            <img src="./imgs/itm-dtls-img.png" alt="">
+                            <div id="timer">
+                                <div class="row">
+                                    <div class="col col-3 ">
+                                        <div class="count-down-bg">
+                                            <h3 class="days"></h3>
+                                            <h4 class="count-down-title"> Days</h4>
+                                        </div>
+                                    </div>
+                                    <div class="col col-3">
+                                        <div class="count-down-bg">
+
+                                            <h3 class="hours"></h3>
+                                            <h4 class="count-down-title">Hours</h4>
+                                        </div>
+                                    </div>
+                                    <div class="col col-3">
+                                        <div class="count-down-bg">
+                                            <h3 class="minutes"></h3>
+                                            <h4 class="count-down-title">Mins</h4>
+                                        </div>
+                                    </div>
+                                    <div class="col col-3">
+                                        <div class="count-down-bg">
+                                            <div class="seconds"></div>
+                                            <h3 id="seconds"></h3>
+                                            <h4 class="count-down-title">Secs</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col col-6">
+                        <div class="item-tex-wrapper">
+                            <h5 class="h5">Pink Universe</h5>
+                            <div class="dbl-btn">
+                                <a href="#" class="eth-btn">1.46 ETH</a>
+                                <a href="#" class="dollar-btn">$ 3,456</a>
+                            </div>
+                            <p class="item-tetails-pra">A masterpiece built with vibrant colors that represents the
+                                freedom of womanhood. This art also represents intersectional self as well. Lorem ipsum
+                                dolor sit amet, consectetur adipiscing elit, sed do.</p>
+                            <div class="item-author row">
+                                <div class="col col-1">
+                                    <div class="author-img"><img src="./imgs/Author-img.png" alt=""></div>
+                                </div>
+                                <div class="col col-11">
+                                    <div class="author">
+                                        <h4 class="author-name">Adem Smith</h4>
+                                        <h5>by Owner</h5>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <ul class="admin-tabs">
+                                <li class="admin-tabs-list">Highest Bid</li>
+                                <li class="admin-tabs-list"> Latest Bid </li>
+                                <li class="admin-tabs-list">History</li>
+                            </ul>
+                            <ul class="admin-tabs-items">
+                                <li class="admin-tabs-items-list"><a href="#">
+                                        <div class="row">
+                                            <div class="col col-6">
+                                                <div class="item-author row">
+                                                    <div class="col col-3">
+                                                        <div class="author-img"><img src="./imgs/Author-img.png" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col col-9">
+                                                        <div class="author">
+                                                            <h4 class="author-name">Adem Smith</h4>
+                                                            <h5>by Owner</h5>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+
+                                            </div>
+                                            <div class="col col-6">
+                                                <div class="date">
+                                                    <h5>Jun 14 - 4:12 PM</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a></li>
+                                <li class="admin-tabs-items-list"><a href="#">
+                                        <div class="row">
+                                            <div class="col col-6">
+                                                <div class="item-author row">
+                                                    <div class="col col-3">
+                                                        <div class="author-img"><img src="./imgs/Author-img.png" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col col-9">
+                                                        <div class="author">
+                                                            <h4 class="author-name">Adem Smith</h4>
+                                                            <h5>by Owner</h5>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+
+                                            </div>
+                                            <div class="col col-6">
+                                                <div class="date">
+                                                    <h5>Jun 14 - 4:12 PM</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a></li>
+                                <li class="admin-tabs-items-list"><a href="#">
+                                        <div class="row">
+                                            <div class="col col-6">
+                                                <div class="item-author row">
+                                                    <div class="col col-3">
+                                                        <div class="author-img"><img src="./imgs/Author-img.png" alt="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col col-9">
+                                                        <div class="author">
+                                                            <h4 class="author-name">Adem Smith</h4>
+                                                            <h5>by Owner</h5>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+
+                                            </div>
+                                            <div class="col col-6">
+                                                <div class="date">
+                                                    <h5>Jun 14 - 4:12 PM</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a></li>
+
+                            </ul>
+
+                            <div class="dbl-btn">
+                                <a href="#" class="palace-bid-btn">Palace Bid</a>
+                                <a href="#" class="purchase-now">Purchase Now</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- faq-section -->
+        <section class="section faq-section">
+            <div class="container">
+                <div class="faq-wrapper">
+                    <div class="faq-que">
+                        <h5 class="h5">How Can You Buy NFTs Through Websites?</h5>
+                        <button><i class="fa-solid fa-plus"></i></button>
+                    </div>
+                    <div class="faq-ans">
+                        <p>NFTs are collectible digital assets with monetary worth, similar to how tangible art has
+                            monetary value. Cryptocurrencies such as Bitcoin and Ethereum are similar to NFTs. An NFT,
+                            on the other hand, is fully unique and cannot be traded like-for-like, which is where the
+                            term "non-fungible" comes into play.
+                        </p>
+                    </div>
+                </div>
+                <div class="faq-wrapper">
+                    <div class="faq-que">
+                        <h5 class="h5">How Can You Buy NFTs Through Websites?</h5>
+                        <button><i class="fa-solid fa-plus"></i></button>
+                    </div>
+                    <div class="faq-ans">
+                        <p>NFTs are collectible digital assets with monetary worth, similar to how tangible art has
+                            monetary value. Cryptocurrencies such as Bitcoin and Ethereum are similar to NFTs. An NFT,
+                            on the other hand, is fully unique and cannot be traded like-for-like, which is where the
+                            term "non-fungible" comes into play.
+                        </p>
+                    </div>
+                </div>
+                <div class="faq-wrapper">
+                    <div class="faq-que faq-active-color">
+                        <h5 class="h5">How Can You Buy NFTs Through Websites?</h5>
+                        <button><i class="fa-solid fa-minus"></i></button>
+                    </div>
+                    <div class="faq-ans active-ans">
+                        <p>NFTs are collectible digital assets with monetary worth, similar to how tangible art has
+                            monetary value. Cryptocurrencies such as Bitcoin and Ethereum are similar to NFTs. An NFT,
+                            on the other hand, is fully unique and cannot be traded like-for-like, which is where the
+                            term "non-fungible" comes into play.
+                        </p>
+                    </div>
+                </div>
+                <div class="faq-wrapper">
+                    <div class="faq-que">
+                        <h5 class="h5">How Can You Buy NFTs Through Websites?</h5>
+                        <button><i class="fa-solid fa-plus"></i></button>
+                    </div>
+                    <div class="faq-ans">
+                        <p>NFTs are collectible digital assets with monetary worth, similar to how tangible art has
+                            monetary value. Cryptocurrencies such as Bitcoin and Ethereum are similar to NFTs. An NFT,
+                            on the other hand, is fully unique and cannot be traded like-for-like, which is where the
+                            term "non-fungible" comes into play.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+        <!-- //faq-section -->
+
+        <!-- product-section -->
+        <section class="section product-section">
+            <div class="container">
+                <h2 class="h2">
+                    Related
+                    <span class="rign">
+                        <span class="multicolor-text">NFT</span>
+                        <span class="text-bg"></span>
+                    </span>
+                </h2>
+                <div class="content">
+                    <div class="row">
+                        <div class="col col-3">
+                            <div class="itm-box">
+                                <img src="./imgs/nft-1.png" alt="">
+                                <div class="itm-text">
+                                    <div class="admin"><img src="./imgs/admin.png" alt=""></div>
+                                    <h4 class="admin-name">Rush Planet</h4>
+                                    <h5>Highest Bid: <span class="rate"> 1.46 ETH</span></h5>
+                                </div>
+                                <div class="Plac-bid">
+                                    <a href="#">Place Bid</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col col-3">
+                            <div class="itm-box">
+                                <img src="./imgs/nft-2.png" alt="">
+                                <div class="itm-text">
+                                    <div class="admin"><img src="./imgs/admin.png" alt=""></div>
+                                    <h4 class="admin-name">Rush Planet</h4>
+                                    <h5>Highest Bid: <span class="rate"> 1.46 ETH</span></h5>
+                                </div>
+                                <div class="Plac-bid">
+                                    <a href="#">Place Bid</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col col-3">
+                            <div class="itm-box">
+                                <img src="./imgs/nft-3.png" alt="">
+                                <div class="itm-text">
+                                    <div class="admin"><img src="./imgs/admin.png" alt=""></div>
+                                    <h4 class="admin-name">Rush Planet</h4>
+                                    <h5>Highest Bid: <span class="rate"> 1.46 ETH</span></h5>
+                                </div>
+                                <div class="Plac-bid">
+                                    <a href="#">Place Bid</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col col-3">
+                            <div class="itm-box">
+                                <img src="./imgs/nft-4.png" alt="">
+                                <div class="itm-text">
+                                    <div class="admin"><img src="./imgs/admin.png" alt=""></div>
+                                    <h4 class="admin-name">Rush Planet</h4>
+                                    <h5>Highest Bid: <span class="rate"> 1.46 ETH</span></h5>
+                                </div>
+                                <div class="Plac-bid">
+                                    <a href="#">Place Bid</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- cta-section -->
+        <section class="section cta-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col col-7">
+                        <h5 class="h5">Come And Join Us</h5>
+                        <h2 class="h2">Free Crypto Points For A Good Start</h2>
+                    </div>
+                    <div class="col col-5">
+                        <div class="btn-wrp">
+                            <div class="position-relative">
+                                <span class="text-bg"></span>
+                                <a href="#" class="cta-btn">Earn Crypto</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- cta-section -->
+    </main>
+    <!-- //content -->
+    <!-- footer -->
+    <footer class="footer-section">
+        <div class="container">
+            <div class="row">
+                <div class="col col-3">
+                    <div class="data-box">
+                        <h5 class="h5">Marketplace</h5>
+                        <ul class="footer-list-itms">
+                            <li><a href="#">All NFTs </a></li>
+                            <li><a href="#">Alrt </a></li>
+                            <li><a href="#">Music </a></li>
+                            <li><a href="#">Domain Names </a></li>
+                            <li><a href="#">Virtual World </a></li>
+                            <li><a href="#">Collectibles </a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col col-3">
+                    <div class="data-box">
+                        <h5 class="h5">Marketplace</h5>
+                        <ul class="footer-list-itms">
+                            <li><a href="#">All NFTs </a></li>
+                            <li><a href="#">Alrt </a></li>
+                            <li><a href="#">Music </a></li>
+                            <li><a href="#">Domain Names </a></li>
+                            <li><a href="#">Virtual World </a></li>
+                            <li><a href="#">Collectibles </a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col col-3">
+                    <div class="data-box">
+                        <h5 class="h5">Marketplace</h5>
+                        <ul class="footer-list-itms">
+                            <li><a href="#">All NFTs </a></li>
+                            <li><a href="#">Alrt </a></li>
+                            <li><a href="#">Music </a></li>
+                            <li><a href="#">Domain Names </a></li>
+                            <li><a href="#">Virtual World </a></li>
+                            <li><a href="#">Collectibles </a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col col-3 ">
+                    <div class="data-box">
+                        <h5 class="h5">Marketplace</h5>
+                        <h6 class="sub-title">Signup for our newsletter to get the latest news in your inbox.</h6>
+                        <div class="form position-relative ">
+                            <form action="#" class="row ">
+                                <input type="email" placeholder="enter your email" class="email">
+                                <button class="submit-btn" type="submit"><i
+                                        class="fa-solid fa-arrow-right"></i></button>
+                            </form>
+
+                        </div>
+                        <p class="sub-title-two">Your email is safe with us. we don’t spam</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </footer>
+    <!-- /footer -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="./slick/slick-1.8.1/slick/slick.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
